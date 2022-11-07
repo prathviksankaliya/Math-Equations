@@ -56,7 +56,7 @@ public class CategoryActivity extends AppCompatActivity {
             setRecyclerView(list);
         }else if(isCategory.equals("Sequences Formula")){
             list.add(new Category("Arithmetic Sequence", "an = a1 + (n − 1)d"));
-            list.add(new Category("Geometric Sequence", "an = a1 r^(n − 1)"));
+            list.add(new Category("Geometric Sequence", "an = a1 * r^(n − 1)"));
             setRecyclerView(list);
         }else if(isCategory.equals("Interest Formula")){
             list.add(new Category("Simple Interest", "FV = P * (1 + r + t)"));
