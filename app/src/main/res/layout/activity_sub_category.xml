@@ -102,8 +102,8 @@
         android:layout_marginHorizontal="8dp"
         android:layout_marginTop="6dp"
         android:maxLines="1"
-        android:visibility="gone"
         app:boxStrokeWidth="0dp"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,31 +121,6 @@
             android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txInput4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginTop="6dp"
-        android:maxLines="1"
-        android:visibility="gone"
-        app:boxStrokeWidth="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txInput3">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/txFormulaValue4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Title"
-            android:inputType="number"
-            android:maxLines="2"
-            android:textColor="@color/black"
-            android:textSize="17sp"
-            android:textStyle="bold" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
         android:id="@+id/llTxAns"
@@ -179,11 +154,11 @@
         android:layout_width="wrap_content"
         android:layout_height="?attr/actionBarSize"
         android:text="Get Answer by Formula"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txInput2" />
+        app:layout_constraintTop_toBottomOf="@+id/txInput3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -403,7 +403,7 @@ public class SubCategoryActivity extends AppCompatActivity {
 
         }else if(catName.equals("Arithmetic Sequence"))
         {
-             desc = catDesc + " \n\n a = first term" + //4
+             desc = catDesc + " \n\n a = first term" + //3
                     "\n" +
                     "d = difference" +
                     "\n" +
@@ -415,7 +415,7 @@ public class SubCategoryActivity extends AppCompatActivity {
             binding.txInput2.setHint("Set value of d");
             binding.txInput3.setHint("Set value of n");
 
-        }else if(catName.equals("Geometric Sequence"))//4
+        }else if(catName.equals("Geometric Sequence"))//3
         {
              desc = catDesc + " \n\n a = first term" +
                     "\n" +
@@ -461,7 +461,7 @@ public class SubCategoryActivity extends AppCompatActivity {
             binding.txInput3.setHint("Set value of c");
         }else if(catName.equals("Perimeter of Square"))
         {
-             desc = catDesc + " \n\n Perimeter of Square (P) = 4 × Side";//4
+             desc = catDesc + " \n\n Perimeter of Square (P) = 4 × Side";//1
             binding.txInput2.setVisibility(View.GONE);
             binding.txInput1.setHint("Set value of a");
         }else if(catName.equals("Percentage"))
