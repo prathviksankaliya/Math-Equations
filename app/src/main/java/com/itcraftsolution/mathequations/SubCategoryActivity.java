@@ -132,7 +132,7 @@ public class SubCategoryActivity extends AppCompatActivity {
 
                         int res = Integer.parseInt(binding.txFormulaValue1.getText().toString().trim());
                         int res2 = Integer.parseInt(binding.txFormulaValue2.getText().toString().trim());
-                        formulaAns = (1/3 * res) * res2;
+                        formulaAns = 3*res *res2;
                         binding.txAns.setText(String.valueOf(formulaAns));
                         binding.llTxAns.setVisibility(View.VISIBLE);
                     }

@@ -51,7 +51,7 @@ public class CategoryActivity extends AppCompatActivity {
         }else if(isCategory.equals("Volumes Formula")){
             list.add(new Category("Cube", "V = s^3"));
             list.add(new Category("Cylinder", "V = πr² * h"));
-            list.add(new Category("Pyramid", "V = 1/3b * h"));
+            list.add(new Category("Pyramid", "V = 3 * b * h"));
             list.add(new Category("Regular prism", "V = b * h"));
             setRecyclerView(list);
         }else if(isCategory.equals("Sequences Formula")){
